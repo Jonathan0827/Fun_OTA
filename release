@@ -2,7 +2,7 @@
 ./build.sh
 cp ./build/FunOTA.tipa ../Fun/FunOTA.tipa
 a=$(pwd)
-cd ../Fun
+cd ../FuniOS
 git add FunOTA.tipa
 git commit -m "Update FunOTA TiPA"
 git push
