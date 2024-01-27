@@ -1,0 +1,10 @@
+#!/bin/zsh
+./build.sh
+cp ./build/FunOTA.tipa ../Fun/FunOTA.tipa
+a=$(pwd)
+cd ../Fun
+git add FunOTA.tipa
+git commit -m "Update FunOTA TiPA"
+git push
+cd $a
+gh release create "FunOTA_$1" ./build/FunOTA.tipa --notes "$2"

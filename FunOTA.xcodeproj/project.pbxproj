@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9125BF6C2B47CB88003F673F /* LocalConsole in Frameworks */ = {isa = PBXBuildFile; productRef = 9125BF6B2B47CB88003F673F /* LocalConsole */; };
+		9125BF6E2B47CE53003F673F /* SpringBoardFoundation.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9125BF6D2B47CE53003F673F /* SpringBoardFoundation.tbd */; };
+		91DA5C682B47B9C900AFEA54 /* FunOTAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DA5C672B47B9C900AFEA54 /* FunOTAApp.swift */; };
+		91DA5C6A2B47B9C900AFEA54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DA5C692B47B9C900AFEA54 /* ContentView.swift */; };
+		91DA5C6C2B47B9CB00AFEA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DA5C6B2B47B9CB00AFEA54 /* Assets.xcassets */; };
+		91DA5C6F2B47B9CB00AFEA54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DA5C6E2B47B9CB00AFEA54 /* Preview Assets.xcassets */; };
+		91DA5C7A2B47BACF00AFEA54 /* TSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DA5C782B47BACF00AFEA54 /* TSUtil.m */; };
+		91DA5C7F2B47BBCD00AFEA54 /* Install.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DA5C7E2B47BBCD00AFEA54 /* Install.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9125BF6D2B47CE53003F673F /* SpringBoardFoundation.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = SpringBoardFoundation.tbd; path = Frameworks/SpringBoardFoundation.tbd; sourceTree = "<group>"; };
+		91DA5C642B47B9C900AFEA54 /* FunOTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunOTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DA5C672B47B9C900AFEA54 /* FunOTAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunOTAApp.swift; sourceTree = "<group>"; };
+		91DA5C692B47B9C900AFEA54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91DA5C6B2B47B9CB00AFEA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91DA5C6E2B47B9CB00AFEA54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91DA5C772B47BACE00AFEA54 /* FunOTA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunOTA-Bridging-Header.h"; sourceTree = "<group>"; };
+		91DA5C782B47BACF00AFEA54 /* TSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSUtil.m; sourceTree = "<group>"; };
+		91DA5C7E2B47BBCD00AFEA54 /* Install.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Install.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91DA5C612B47B9C900AFEA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9125BF6C2B47CB88003F673F /* LocalConsole in Frameworks */,
+				9125BF6E2B47CE53003F673F /* SpringBoardFoundation.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91DA5C5B2B47B9C900AFEA54 = {
+			isa = PBXGroup;
+			children = (
+				91DA5C802B47C52000AFEA54 /* Frameworks */,
+				91DA5C662B47B9C900AFEA54 /* FunOTA */,
+				91DA5C652B47B9C900AFEA54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91DA5C652B47B9C900AFEA54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91DA5C642B47B9C900AFEA54 /* FunOTA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91DA5C662B47B9C900AFEA54 /* FunOTA */ = {
+			isa = PBXGroup;
+			children = (
+				91DA5C672B47B9C900AFEA54 /* FunOTAApp.swift */,
+				91DA5C782B47BACF00AFEA54 /* TSUtil.m */,
+				91DA5C692B47B9C900AFEA54 /* ContentView.swift */,
+				91DA5C6B2B47B9CB00AFEA54 /* Assets.xcassets */,
+				91DA5C6D2B47B9CB00AFEA54 /* Preview Content */,
+				91DA5C772B47BACE00AFEA54 /* FunOTA-Bridging-Header.h */,
+				91DA5C7E2B47BBCD00AFEA54 /* Install.swift */,
+			);
+			path = FunOTA;
+			sourceTree = "<group>";
+		};
+		91DA5C6D2B47B9CB00AFEA54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91DA5C6E2B47B9CB00AFEA54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91DA5C802B47C52000AFEA54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9125BF6D2B47CE53003F673F /* SpringBoardFoundation.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91DA5C632B47B9C900AFEA54 /* FunOTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DA5C722B47B9CB00AFEA54 /* Build configuration list for PBXNativeTarget "FunOTA" */;
+			buildPhases = (
+				91DA5C602B47B9C900AFEA54 /* Sources */,
+				91DA5C612B47B9C900AFEA54 /* Frameworks */,
+				91DA5C622B47B9C900AFEA54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunOTA;
+			packageProductDependencies = (
+				9125BF6B2B47CB88003F673F /* LocalConsole */,
+			);
+			productName = FunOTA;
+			productReference = 91DA5C642B47B9C900AFEA54 /* FunOTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91DA5C5C2B47B9C900AFEA54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					91DA5C632B47B9C900AFEA54 = {
+						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = 91DA5C5F2B47B9C900AFEA54 /* Build configuration list for PBXProject "FunOTA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91DA5C5B2B47B9C900AFEA54;
+			packageReferences = (
+				9125BF6A2B47CB88003F673F /* XCRemoteSwiftPackageReference "LocalConsole" */,
+			);
+			productRefGroup = 91DA5C652B47B9C900AFEA54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91DA5C632B47B9C900AFEA54 /* FunOTA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91DA5C622B47B9C900AFEA54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DA5C6F2B47B9CB00AFEA54 /* Preview Assets.xcassets in Resources */,
+				91DA5C6C2B47B9CB00AFEA54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91DA5C602B47B9C900AFEA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DA5C6A2B47B9C900AFEA54 /* ContentView.swift in Sources */,
+				91DA5C682B47B9C900AFEA54 /* FunOTAApp.swift in Sources */,
+				91DA5C7A2B47BACF00AFEA54 /* TSUtil.m in Sources */,
+				91DA5C7F2B47BBCD00AFEA54 /* Install.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91DA5C702B47B9CB00AFEA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91DA5C712B47B9CB00AFEA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91DA5C732B47B9CB00AFEA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunOTA/Preview Content\"";
+				DEVELOPMENT_TEAM = WF4J3YQN3K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FunOTA",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.FunOTA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FunOTA/FunOTA-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91DA5C742B47B9CB00AFEA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunOTA/Preview Content\"";
+				DEVELOPMENT_TEAM = WF4J3YQN3K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FunOTA",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.FunOTA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FunOTA/FunOTA-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91DA5C5F2B47B9C900AFEA54 /* Build configuration list for PBXProject "FunOTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DA5C702B47B9CB00AFEA54 /* Debug */,
+				91DA5C712B47B9CB00AFEA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DA5C722B47B9CB00AFEA54 /* Build configuration list for PBXNativeTarget "FunOTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DA5C732B47B9CB00AFEA54 /* Debug */,
+				91DA5C742B47B9CB00AFEA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9125BF6A2B47CB88003F673F /* XCRemoteSwiftPackageReference "LocalConsole" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/duraidabdul/LocalConsole/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9125BF6B2B47CB88003F673F /* LocalConsole */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9125BF6A2B47CB88003F673F /* XCRemoteSwiftPackageReference "LocalConsole" */;
+			productName = LocalConsole;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 91DA5C5C2B47B9C900AFEA54 /* Project object */;
+}
